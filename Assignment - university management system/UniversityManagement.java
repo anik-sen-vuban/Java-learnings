@@ -81,8 +81,8 @@ public class UniversityManagement {
         }
     }
 
-    // ================= DEPARTMENT CRUD =================
 
+    //To view departments, showing their details including ID and name. If no departments exist, it informs the user.
     public void viewDepartments() {
         System.out.println("\n--- Department List ---");
         if (departmentCount == 0) {
@@ -121,8 +121,8 @@ public class UniversityManagement {
         return (idx == -1) ? null : departments[idx];
     }
 
-    // ================= TEACHER CRUD =================
-
+    
+    // To view teachers, showing their details including ID, name, designation, and department. If no teachers exist, it informs the user.
     public void viewTeachers() {
         System.out.println("\n--- Teacher List ---");
         if (teacherCount == 0) {
@@ -185,8 +185,8 @@ public class UniversityManagement {
         return (idx == -1) ? null : teachers[idx];
     }
 
-    // ================= CLASSROOM CRUD =================
-
+    
+    //To view classrooms, showing their details including ID, room number, and capacity. If no classrooms exist, it informs the user.
     public void viewClassrooms() {
         System.out.println("\n--- Classroom List ---");
         if (classroomCount == 0) {
@@ -226,7 +226,6 @@ public class UniversityManagement {
         return (idx == -1) ? null : classrooms[idx];
     }
 
-    // ================= COURSE CRUD =================
 
     // View all courses, showing their details including department, teacher, and classroom.
     public void viewCourses() {
@@ -316,8 +315,7 @@ public class UniversityManagement {
         return (idx == -1) ? null : courses[idx];
     }
 
-    // ================= STUDENT REGISTRATION =================
-
+    //To view students, showing their details including ID, name, department, course, teacher, classroom, and credit. If no students exist, it informs the user.
     public void viewStudents() {
         System.out.println("\n--- Student List ---");
         if (studentCount == 0) {
