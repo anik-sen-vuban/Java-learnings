@@ -5,11 +5,14 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         UniversityManagement um = new UniversityManagement();
 
+        ConsoleUtils.clearScreen();
+        ConsoleUtils.banner();
+        ConsoleUtils.pause(sc);
+
         boolean running = true;
         while (running) {
             Menu.mainMenu();
-            int choice = sc.nextInt();
-            sc.nextLine();
+            int choice = readInt(sc);
 
             switch (choice) {
                 case 1:
@@ -29,86 +32,109 @@ public class Main {
                     break;
                 case 0:
                     running = false;
-                    System.out.println("Thank you.");
+                    ConsoleUtils.clearScreen();
+                    System.out.println("Exiting... Goodbye!");
                     break;
                 default:
                     System.out.println("Invalid choice. Please try again.");
+                    ConsoleUtils.pause(sc);
             }
         }
         sc.close();
     }
+
     private static void departmentMenuLoop(Scanner sc, UniversityManagement um) {
-        boolean running = true;
-        while (running) {
+        boolean back = false;
+        while (!back) {
             Menu.departmentMenu();
-            int choice = sc.nextInt();
-            sc.nextLine();
+            int choice = readInt(sc);
             switch (choice) {
-                case 1: um.viewDepartments(); break;
-                case 2: um.addDepartment(sc); break;
-                case 0: running = false; break;
-                default: System.out.println("Invalid choice. Please try again.");
+                case 1: um.viewDepartments(); ConsoleUtils.pause(sc); break;
+                case 2: um.addDepartment(sc); ConsoleUtils.pause(sc); break;
+                // case 3: um.deleteDepartment(sc); ConsoleUtils.pause(sc); break;
+                case 0: back = true; break;
+                default:
+                    System.out.println("Invalid choice. Please try again.");
+                    ConsoleUtils.pause(sc);
             }
         }
     }
 
     private static void teacherMenuLoop(Scanner sc, UniversityManagement um) {
-        boolean running = true;
-        while (running) {
+        boolean back = false;
+        while (!back) {
             Menu.teacherMenu();
-            int choice = sc.nextInt();
-            sc.nextLine();
+            int choice = readInt(sc);
             switch (choice) {
-                case 1: um.viewTeachers(); break;
-                case 2: um.addTeacher(sc); break;
-                case 0: running = false; break;
-                default: System.out.println("Invalid choice. Please try again.");
+                case 1: um.viewTeachers(); ConsoleUtils.pause(sc); break;
+                case 2: um.addTeacher(sc); ConsoleUtils.pause(sc); break;
+                // case 3: um.deleteTeacher(sc); ConsoleUtils.pause(sc); break;
+                case 0: back = true; break;
+                default:
+                    System.out.println("Invalid choice. Please try again.");
+                    ConsoleUtils.pause(sc);
             }
         }
     }
 
     private static void classroomMenuLoop(Scanner sc, UniversityManagement um) {
-        boolean running = true;
-        while (running) {
+        boolean back = false;
+        while (!back) {
             Menu.classroomMenu();
-            int choice = sc.nextInt();
-            sc.nextLine();
+            int choice = readInt(sc);
             switch (choice) {
-                case 1: um.viewClassrooms(); break;
-                case 2: um.addClassroom(sc); break;
-                case 0: running = false; break;
-                default: System.out.println("Invalid choice. Please try again.");
+                case 1: um.viewClassrooms(); ConsoleUtils.pause(sc); break;
+                case 2: um.addClassroom(sc); ConsoleUtils.pause(sc); break;
+                // case 3: um.deleteClassroom(sc); ConsoleUtils.pause(sc); break;
+                case 0: back = true; break;
+                default:
+                    System.out.println("Invalid choice. Please try again.");
+                    ConsoleUtils.pause(sc);
             }
         }
     }
 
     private static void courseMenuLoop(Scanner sc, UniversityManagement um) {
-        boolean running = true;
-        while (running) {
+        boolean back = false;
+        while (!back) {
             Menu.courseMenu();
-            int choice = sc.nextInt();
-            sc.nextLine();
+            int choice = readInt(sc);
             switch (choice) {
-                case 1: um.viewCourses(); break;
-                case 2: um.addCourse(sc); break;
-                case 0: running = false; break;
-                default: System.out.println("Invalid choice. Please try again.");
+                case 1: um.viewCourses(); ConsoleUtils.pause(sc); break;
+                case 2: um.addCourse(sc); ConsoleUtils.pause(sc); break;
+                // case 3: um.deleteCourse(sc); ConsoleUtils.pause(sc); break;
+                case 0: back = true; break;
+                default:
+                    System.out.println("Invalid choice. Please try again.");
+                    ConsoleUtils.pause(sc);
             }
         }
     }
 
     private static void studentMenuLoop(Scanner sc, UniversityManagement um) {
-        boolean running = true;
-        while (running) {
+        boolean back = false;
+        while (!back) {
             Menu.studentMenu();
-            int choice = sc.nextInt();
-            sc.nextLine();
+            int choice = readInt(sc);
             switch (choice) {
-                case 1: um.viewStudents(); break;
-                case 2: um.registerStudent(sc); break;
-                case 0: running = false; break;
-                default: System.out.println("Invalid choice. Please try again.");
+                case 1: um.viewStudents(); ConsoleUtils.pause(sc); break;
+                case 2: um.registerStudent(sc); ConsoleUtils.pause(sc); break;
+                // case 3: um.deleteStudent(sc); ConsoleUtils.pause(sc); break;
+                case 0: back = true; break;
+                default:
+                    System.out.println("Invalid choice. Please try again.");
+                    ConsoleUtils.pause(sc);
             }
+        }
+    }
+
+    // Reads an integer choice safely, returns -1 on invalid input instead of crashing.
+    private static int readInt(Scanner sc) {
+        String line = sc.nextLine();
+        try {
+            return Integer.parseInt(line.trim());
+        } catch (NumberFormatException e) {
+            return -1;
         }
     }
 }
