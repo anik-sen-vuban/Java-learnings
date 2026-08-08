@@ -1,3 +1,5 @@
+package ExceptionsHandling;
+
 public class FinallyBlock {
     public static void main(String[] args) {
         //Finally Block always execute

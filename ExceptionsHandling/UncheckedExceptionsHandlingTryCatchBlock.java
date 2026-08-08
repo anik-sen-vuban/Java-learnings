@@ -1,6 +1,8 @@
+package ExceptionsHandling;
+
 public class UncheckedExceptionsHandlingTryCatchBlock {
     public static void main(String[] args) {
-        //Exception-1
+        //Exception-1: ArithmeticException
         try {
 
             int result = 10 / 0;
@@ -11,7 +13,7 @@ public class UncheckedExceptionsHandlingTryCatchBlock {
 
         }
 
-        //Exception-2
+        //Exception-2: ArrayIndexOutOfBoundException
         try {
 
             int[] numbers = {10, 20, 30};
@@ -24,7 +26,7 @@ public class UncheckedExceptionsHandlingTryCatchBlock {
 
         }
 
-        //Exception-3
+        //Exception-3: NullPointerException
         try {
 
             String name = null;
@@ -37,7 +39,7 @@ public class UncheckedExceptionsHandlingTryCatchBlock {
 
         }
 
-        //Exception-4
+        //Exception-4: NegativeArraySizeException
         try {
 
             int[] numbers = new int[-5];
