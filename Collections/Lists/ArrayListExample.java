@@ -44,6 +44,7 @@ public class ArrayListExample {
         students.add("Anik");
         students.add("Lokkhiii");
         students.add("Ranik");
+
         //To see the list
         System.out.println("After add(): " + students);
 
