@@ -1,10 +1,19 @@
-package OOP_Final_Project.StudentManagementSystem;
+package OOP_Final_Project.StudentManagementSystem.Classes;
 
 import java.util.ArrayList;
 
 public class Result {
     private Student student;
     private GradeCalculator calculator;
+
+    public Result(){
+        //Default constructor
+    }
+    //Parameterize constructor
+    public Result(Student student, GradeCalculator calculator){
+        this.student = student;
+        this.calculator = calculator;
+    }
     // Method to display detailed student mark sheet
     public void printResultSheet() {
         System.out.println("========================================");

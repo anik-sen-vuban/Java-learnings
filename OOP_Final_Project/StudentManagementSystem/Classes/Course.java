@@ -1,4 +1,4 @@
-package OOP_Final_Project.StudentManagementSystem;
+package OOP_Final_Project.StudentManagementSystem.Classes;
 
 public class Course {
     private String courseCode;
