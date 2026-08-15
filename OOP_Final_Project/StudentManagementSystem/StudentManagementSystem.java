@@ -1,14 +1,16 @@
 package OOP_Final_Project.StudentManagementSystem;
 
 import OOP_Final_Project.StudentManagementSystem.Classes.*;
-import static OOP_Final_Project.StudentManagementSystem.Services.StudentService.*;
+import OOP_Final_Project.StudentManagementSystem.Services.StudentService;
+
 
 import java.util.Scanner;
 
 public class StudentManagementSystem {
     private static Scanner scanner = new Scanner(System.in);
-
+//    private static StudentService studentService = new StudentService(scanner);
     public static void main(String[] args) {
+        StudentService studentService = new StudentService(scanner);
         boolean running = true;
         while (running) {
             displayMenu();
@@ -18,25 +20,25 @@ public class StudentManagementSystem {
 
             switch (choiceStr) {
                 case "1":
-                    addStudent();
+                    studentService.addStudent();
                     break;
                 case "2":
-                    viewAllStudents();
+                    studentService.viewAllStudents();
                     break;
                 case "3":
-                    searchStudent();
+                    studentService.searchStudent();
                     break;
                 case "4":
-                    updateStudent();
+                    studentService.updateStudent();
                     break;
                 case "5":
-                    deleteStudent();
+                    studentService.deleteStudent();
                     break;
                 case "6":
-                    addCourseAndMarks();
+                    studentService.addCourseAndMarks();
                     break;
                 case "7":
-                    viewStudentResult();
+                    studentService.viewStudentResult();
                     break;
                 case "8":
                     running = false;
