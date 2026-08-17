@@ -40,7 +40,7 @@ public class StudentManagementSystem {
                 case "7":
                     studentService.viewStudentResult();
                     break;
-                case "8":
+                case "0":
                     running = false;
                     System.out.println("\nThank you for using Student Management System. Goodbye!");
                     break;
@@ -62,7 +62,7 @@ public class StudentManagementSystem {
         System.out.println("5. Delete Student");
         System.out.println("6. Add Course / Marks");
         System.out.println("7. View Student Result");
-        System.out.println("8. Exit");
+        System.out.println("0. Exit");
         System.out.println("----------------------------------------");
     }
 }
