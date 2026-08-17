@@ -1,4 +1,5 @@
 package Polymorphism.MethodOverridingRunTimePolymorphism;
+
 class Animal{
     void sound(){
         System.out.println("Animal is sounding....");
@@ -14,7 +15,6 @@ class Dog extends Animal{
 
 public class MethodOverridingExample1 {
     public static void main(String[] args) {
-
         // Parent reference
         Animal a;
         // Child object
