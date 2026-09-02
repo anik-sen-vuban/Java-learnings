@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="47511654-2b5e-46d9-a7a2-59488d414f51" name="Changes" comment="Updated">
+      <change afterPath="$PROJECT_DIR$/.idea/IntelliLang.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Immutable_class/ImmutableClassExample.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="179" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;anik-sen-vuban&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/anik-sen-vuban/Java-learnings.git&quot;,
+    &quot;accountId&quot;: &quot;c9ebe6a7-4bb1-45bd-9fff-44eb2a0910c9&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.5140569133280333" />
+      <entry key="MS500" value="1.8753913584436916" />
+      <entry key="S2" value="1.9840391028639837" />
+      <entry key="S5" value="2.2742192236581005" />
+      <entry key="S10" value="2.8824294378241757" />
+      <entry key="S30" value="4.953624331795806" />
+      <entry key="S60" value="6.447431689572084" />
+      <entry key="M2" value="7.550331183950191" />
+      <entry key="M5" value="8.380085303746146" />
+      <entry key="M10" value="9.388225636744984" />
+      <entry key="M15" value="11.927772183646823" />
+      <entry key="M30" value="22.896220728646284" />
+      <entry key="H1" value="40.734604850001226" />
+      <entry key="H2" value="69.23978332206582" />
+      <entry key="H4" value="121.22898443029312" />
+      <entry key="D1" value="291.21762946341823" />
+      <entry key="W1" value="355.47871175022505" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="5.569251024255196E-35" />
+      <entry key="MS500" value="1.4099619769640492E-7" />
+      <entry key="S2" value="0.021364412279086753" />
+      <entry key="S5" value="0.2895409043377776" />
+      <entry key="S10" value="0.7425921418650228" />
+      <entry key="S30" value="1.429327102820599" />
+      <entry key="S60" value="1.6895401202566445" />
+      <entry key="M2" value="1.8378966178094964" />
+      <entry key="M5" value="1.934066170251945" />
+      <entry key="M10" value="2.0166238076227057" />
+      <entry key="M15" value="2.1931947236583325" />
+      <entry key="M30" value="2.919255442927774" />
+      <entry key="H1" value="4.03128216203818" />
+      <entry key="H2" value="5.996282011323164" />
+      <entry key="H4" value="12.010045145782314" />
+      <entry key="D1" value="41.07865983741166" />
+      <entry key="W1" value="53.52298342339765" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.6823598244835962" />
+      <entry key="MS500" value="1.5112837883648762" />
+      <entry key="S2" value="1.8871636900371977" />
+      <entry key="S5" value="2.4504081680234555" />
+      <entry key="S10" value="3.495404947289403" />
+      <entry key="S30" value="6.276280697080003" />
+      <entry key="S60" value="8.063805538447596" />
+      <entry key="M2" value="9.344598024905794" />
+      <entry key="M5" value="10.294629667213794" />
+      <entry key="M10" value="11.394448953724146" />
+      <entry key="M15" value="14.113359430261854" />
+      <entry key="M30" value="25.810334658006767" />
+      <entry key="H1" value="44.762162516226475" />
+      <entry key="H2" value="75.23301641014399" />
+      <entry key="H4" value="133.23616524229658" />
+      <entry key="D1" value="332.29499104919705" />
+      <entry key="W1" value="409.00146373743183" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3IQEjvtY4QGkJ67CMw0cC7QKk1R" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/vuban/Documents/Java-learnings",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.25134.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="47511654-2b5e-46d9-a7a2-59488d414f51" name="Changes" comment="Updated" />
+      <created>1787688532165</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1787688532165</updated>
+      <workItem from="1787691393534" duration="1630000" />
+      <workItem from="1787804417151" duration="7592000" />
+      <workItem from="1787826633868" duration="866000" />
+      <workItem from="1788056267903" duration="4029000" />
+      <workItem from="1788209574280" duration="61000" />
+      <workItem from="1788354789463" duration="1155000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Immutable_class/ImmutableClassExample.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
