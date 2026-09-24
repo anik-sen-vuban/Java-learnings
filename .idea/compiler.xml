@@ -7,10 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Multiple_Matching_Beans_Dependency_Injection_Spring_IoC_Container_Maven" />
+        <module name="Dependency_Injection_using_Spring_IoC_Container_using_Maven" />
+        <module name="Without_using_Component_and_with_using_Bean_annotation_Dependency_Injection_Example" />
+        <module name="Dependency_Injection_using_Bean_annotation_Example2" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Dependency_Injection_using_Spring_IoC_Container_using_Maven" target="21" />
-    </bytecodeTargetLevel>
   </component>
 </project>

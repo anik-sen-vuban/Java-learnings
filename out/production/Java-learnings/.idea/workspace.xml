@@ -4,30 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad06126a-a25e-4201-b6f7-b0002fee6837" name="Changes" comment="updated">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_class/Example1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Object_Class_father_class_of_all_classes/Example1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring_IoC_Container_using_Maven/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring_IoC_Container_using_Maven/src/main/java/org/example1/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring_IoC_Container_using_Maven/src/main/java/org/example1/PaymentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="6f7933d2-a00e-42be-88f8-c99f1393025e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Dependency_Injection_using_Spring_IoC_Container_using_Maven/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dependency_Injection_using_Spring_IoC_Container_using_Maven/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dependency_Injection_using_Spring_IoC_Container_using_Maven/src/main/java/org/example1/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dependency_Injection_using_Spring_IoC_Container_using_Maven/src/main/java/org/example1/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-learnings/.idea/dataSources/data_sources_history.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-learnings/.idea/dataSources/data_sources_history.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java-learnings/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-learnings/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-learnings/Immutable_class/College.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-learnings/Immutable_class/ImmutableClassExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-learnings/Immutable_class/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-learnings/OOP_Final_Project/StudentManagementSystem/StudentManagementSystem.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,140 +31,50 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/anik-sen-vuban/Java-learnings.git&quot;,
-    &quot;accountId&quot;: &quot;417894af-1c67-421a-bdcd-31977969b345&quot;
+    &quot;accountId&quot;: &quot;88ca9ff7-c7bd-4258-8427-af7db2e9eaab&quot;
   }
 }</component>
-  <component name="McpProjectServerCommands">
-    <commands />
-    <urls />
-  </component>
-  <component name="NextEditCompletionFeaturesState">
-    <decayedCancelled>
-      <entry key="MS100" value="1.04482554795495E-207" />
-      <entry key="MS500" value="6.848878770140466E-42" />
-      <entry key="S2" value="8.60307154606137E-11" />
-      <entry key="S5" value="1.5894658849476071E-4" />
-      <entry key="S10" value="0.030219670909863647" />
-      <entry key="S30" value="1.990922244259529" />
-      <entry key="S60" value="6.944806263002376" />
-      <entry key="M2" value="15.562393745965323" />
-      <entry key="M5" value="29.36621536035086" />
-      <entry key="M10" value="37.57678243914273" />
-      <entry key="M15" value="40.9665319286525" />
-      <entry key="M30" value="44.7802144912825" />
-      <entry key="H1" value="47.17128239730259" />
-      <entry key="H2" value="52.14180787240581" />
-      <entry key="H4" value="80.16336818736933" />
-      <entry key="D1" value="259.0164989665626" />
-      <entry key="W1" value="342.97400379235694" />
-    </decayedCancelled>
-    <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.000000000164842" />
-      <entry key="S5" value="1.0001294813055337" />
-      <entry key="S10" value="1.013768541930967" />
-      <entry key="S30" value="1.3724496746073491" />
-      <entry key="S60" value="2.138320292146541" />
-      <entry key="M2" value="3.9656931043176913" />
-      <entry key="M5" value="7.533200928221767" />
-      <entry key="M10" value="9.790837642182806" />
-      <entry key="M15" value="10.737064287191156" />
-      <entry key="M30" value="11.825412878041167" />
-      <entry key="H1" value="12.70906162913291" />
-      <entry key="H2" value="15.004102622867144" />
-      <entry key="H4" value="26.142996564189904" />
-      <entry key="D1" value="91.94189361955458" />
-      <entry key="W1" value="121.95229974631285" />
-    </decayedSelected>
-    <decayedShown>
-      <entry key="MS100" value="0.02646079101132897" />
-      <entry key="MS500" value="0.483638164806966" />
-      <entry key="S2" value="0.8339310440177197" />
-      <entry key="S5" value="0.9301971976449169" />
-      <entry key="S10" value="1.0066065933177482" />
-      <entry key="S30" value="3.329646232624157" />
-      <entry key="S60" value="9.042478218864163" />
-      <entry key="M2" value="19.481790297430646" />
-      <entry key="M5" value="36.86082960023344" />
-      <entry key="M10" value="47.34190112487467" />
-      <entry key="M15" value="51.68464290224282" />
-      <entry key="M30" value="56.595112441182394" />
-      <entry key="H1" value="59.87468825407265" />
-      <entry key="H2" value="67.1424389027488" />
-      <entry key="H4" value="106.3028783603845" />
-      <entry key="D1" value="350.95615250613764" />
-      <entry key="W1" value="464.9258783541216" />
-    </decayedShown>
-  </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 2,
+  &quot;associatedIndex&quot;: 3,
   &quot;fromUser&quot;: false
 }</component>
-  <component name="ProjectId" id="3JXCYeFBFHLbnOV1Jd9FDFFguRV" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="3JhDUBD05yrjrxSSynCjHh3sUGk" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Example1.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MakeATestCodeJar.executor": "Run",
-    "Application.MakeJarExampleTestCode.executor": "Run",
-    "RunOnceActivity.MCP Project settings loaded": "true",
+    "Application.HashMap_Testing.executor": "Run",
+    "Application.ImmutableClassExample.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/Lokkhiii/OneDrive/Documents/Programming Learnings/Java-learnings/Spring_IoC_Container_using_Maven/src/main/java/org/example1/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="Dependency.Dependency_Injection_Example4.Services" />
-    </key>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10315.125" />
-        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10315.125" />
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
       </set>
     </attachedChunks>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ad06126a-a25e-4201-b6f7-b0002fee6837" name="Changes" comment="" />
-      <created>1789798074901</created>
+      <changelist id="6f7933d2-a00e-42be-88f8-c99f1393025e" name="Changes" comment="" />
+      <created>1790104424769</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1789798074901</updated>
+      <updated>1790104424769</updated>
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated" />
   </component>
 </project>
