@@ -8,6 +8,9 @@
         <option value="$PROJECT_DIR$/Spring_IoC_Container_using_Maven/pom.xml" />
         <option value="$PROJECT_DIR$/Multiple_Matching_Beans_Dependency_Injection_Spring_IoC_Container_Maven/pom.xml" />
         <option value="$PROJECT_DIR$/Dependency_Injection_using_Spring_IoC_Container_using_Maven/pom.xml" />
+        <option value="$PROJECT_DIR$/Without_using_Component_and_with_using_Bean_annotation_Dependency_Injection_Example/pom.xml" />
+        <option value="$PROJECT_DIR$/Dependency_Injection_using_Bean_annotation_Example2/pom.xml" />
+        <option value="$PROJECT_DIR$/Circular_Dependency_Example1/pom.xml" />
       </list>
     </option>
   </component>

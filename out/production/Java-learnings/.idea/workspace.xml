@@ -4,20 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f7933d2-a00e-42be-88f8-c99f1393025e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Dependency_Injection_using_Spring_IoC_Container_using_Maven/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dependency_Injection_using_Spring_IoC_Container_using_Maven/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dependency_Injection_using_Spring_IoC_Container_using_Maven/src/main/java/org/example1/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dependency_Injection_using_Spring_IoC_Container_using_Maven/src/main/java/org/example1/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-learnings/.idea/dataSources/data_sources_history.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-learnings/.idea/dataSources/data_sources_history.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-learnings/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java-learnings/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-learnings/Immutable_class/College.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-learnings/Immutable_class/ImmutableClassExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-learnings/Immutable_class/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java-learnings/OOP_Final_Project/StudentManagementSystem/StudentManagementSystem.class" beforeDir="false" />
+    <list default="true" id="6f7933d2-a00e-42be-88f8-c99f1393025e" name="Changes" comment="Updated">
+      <change afterPath="$PROJECT_DIR$/Circular_Dependency_Example1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Circular_Dependency_Example1/src/main/java/org/example5/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Circular_Dependency_Example1/src/main/java/org/example5/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Circular_Dependency_Example1/src/main/java/org/example5/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dependency/Circular_Dependency_Example/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dependency/Circular_Dependency_Example/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dependency/Circular_Dependency_Example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,6 +49,9 @@
   &quot;fromUser&quot;: false
 }</component>
   <component name="ProjectId" id="3JhDUBD05yrjrxSSynCjHh3sUGk" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,13 +60,17 @@
   "keyToString": {
     "Application.HashMap_Testing.executor": "Run",
     "Application.ImmutableClassExample.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Palindrome.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "nodejs_package_manager_path": "npm"
+    "last_opened_file_path": "/home/lokkhiii/Documents/gitHub-clone-repos/Java-learnings/Dependency_Injection_using_Spring_IoC_Container_using_Maven/pom.xml",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/home/lokkhiii/Documents/gitHub-clone-repos/Java-learnings/Circular_Dependency_Example1/src/main/java/org/example5/Main.java"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -76,5 +93,30 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Without_using_Component_and_with_using_Bean_annotation_Dependency_Injection_Example/src/main/java/org/example3/Main.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Dependency_Injection_using_Bean_annotation_Example2/src/main/java/org/example4/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Circular_Dependency_Example1/src/main/java/org/example5/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
