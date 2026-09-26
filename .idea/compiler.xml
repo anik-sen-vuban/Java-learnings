@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Bean_Scope_Singleton_and_Prototype" />
         <module name="Lazy_Dependency_Injection_using_Proxy" />
+        <module name="BasicSpringBootAppllicationDemo" />
         <module name="Dependency_Injection_using_Spring_IoC_Container_using_Maven" />
         <module name="Multiple_Matching_Beans_Dependency_Injection_Spring_IoC_Container_Maven" />
         <module name="Circular_Dependency_Example1" />

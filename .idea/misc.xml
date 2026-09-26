@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/Circular_Dependency_Example1/pom.xml" />
         <option value="$PROJECT_DIR$/Bean_Scope_Singleton_and_Prototype/pom.xml" />
         <option value="$PROJECT_DIR$/Lazy_Dependency_Injection_using_Proxy/pom.xml" />
+        <option value="$PROJECT_DIR$/BasicSpringBootAppllicationDemo/pom.xml" />
       </list>
     </option>
   </component>
